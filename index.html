@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DGII - Validación de Documentos</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding: 0;
+        }
+
+        #mainContainer {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 800px;
+        }
+
+        /* Encabezado Verde */
+        #header {
+            background-color: #82ad24;
+            padding: 25px 30px;
+            border-bottom: 2px solid #2d2d2d;
+        }
+
+        #header .logo-text {
+            color: #1b4a12;
+            font-size: 15px;
+            font-weight: bold;
+            font-style: italic;
+            letter-spacing: 0.5px;
+        }
+
+        /* Título */
+        #title {
+            padding: 25px 30px 15px 30px;
+        }
+
+        .title-orange {
+            color: #e09400;
+            font-size: 22px;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .title-green {
+            color: #558b0f;
+            font-size: 22px;
+            font-weight: regular;
+            display: block;
+        }
+
+        /* Contenido / Tabla */
+        #content {
+            padding: 10px 30px 30px 30px;
+        }
+
+        .data_table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 18px;
+        }
+
+        .data_table tr {
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .data_table td {
+            padding: 14px 15px;
+            vertical-align: middle;
+        }
+
+        .left-col {
+            font-weight: regular;
+            color: #000000;
+            width: 35%;
+            background-color: #f2f2f2;
+        }
+
+        .right-col {
+            color: #555555;
+            width: 65%;
+            background-color: #ffffff;
+        }
+
+        #footer {
+             padding: 20px 30px;
+    font-size: 18px;
+    color: #666666;
+    text-align: left;
+    background-color: #e0e0e0;
+    border-top: 1px solid #d0d0d0;
+    margin-top: -20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="mainContainer">
+        <!-- Encabezado Verde -->
+        <div id="header">
+            <!-- Si tienes la imagen del logo, reemplaza este span por: <img src="LogoPlacaProvisional.png" alt="PLACA PROVISIONAL"> -->
+            <span class="logo-text">MATRÌCULA</span>
+        </div>
+
+        <!-- Título principal -->
+        <div id="title">
+            <span class="title-orange">Sistema Datamatrix</span>
+            <span class="title-green">Validación de Documentos</span>
+        </div>
+
+        <!-- Tabla de datos -->
+        <div id="content">
+            <table class="data_table">
+                <tbody>
+                    <tr>
+                        <td class="left-col"><span id="lblECodigo">Código</span></td>
+                        <td class="right-col"><span id="lblCodigo">1smk3fQ</span></td>
+                    </tr>
+                    <tr>
+                        <td class="left-col"><span id="lblEPlaca">Matricula</span></td>
+                        <td class="right-col"><span id="lblPlaca">12996561</span></td>
+                    </tr>
+                    <tr>
+
+                    </tr>
+                    <tr>
+                        <td class="left-col"><span id="lblEMarca">Marca</span></td>
+                        <td class="right-col"><span id="lblMarca">BAJAJ</span></td>
+                    </tr>
+                    <tr>
+                        <td class="left-col"><span id="lblEModelo">Modelo</span></td>
+                        <td class="right-col"><span id="lblModelo">PLATINA 100 ES</span></td>
+</span></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="left-col"><span id="lblEColor">Color</span></td>
+                        <td class="right-col"><span id="lblColor">NEGRO</span></td>
+                    </tr>
+                    <tr>
+                        <td class="left-col"><span id="lblEYear">Año</span></td>
+                        <td class="right-col"><span id="lblYear">2021</span></td>
+                    </tr>
+                    <tr>
+                        <td class="left-col"><span id="lblEChasis">Placa</span></td>
+                        <td class="right-col"><span id="lblChasis">K2061214</span></td>
+                    </tr>
+                    <tr id="trfechaemision">
+                        <td class="left-col"><span id="LblEfechaemision">Chasis</span></td>
+                        <td class="right-col"><span id="Lblfechaemision">MD2A76AX9MWG47933</span></td>
+                    </tr>
+                    <tr>
+         
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Pie de página -->
+        <div id="footer">
+            Dirección General de Impuestos Internos.
+        </div>
+    </div>
+
+</body>
+</html>
